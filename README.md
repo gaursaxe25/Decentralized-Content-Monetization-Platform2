@@ -29,7 +29,8 @@ Install dependencies: npm install
 Create a .env file with your private key: PRIVATE_KEY=your_private_key
 Deploy to Core Testnet 2: npx hardhat run scripts/deploy.js --network coreTestnet2
 
-contracts Address: 0x24Fa6A772D70F42a7d6e28C8cf88d161F513A31A
+contracts Address: '0x811fCc8c77cD191bD35282C2d6cEE6a63E26b3A2'
 
-![Screenshot (1)](https://github.com/user-attachments/assets/35507b3c-b708-4a6d-89f0-07eaf31646e2)
+![Screenshot 2025-05-19 130059](https://github.com/user-attachments/assets/4bedf80a-7e96-4101-8549-a6a22567cf2d)
+
 
