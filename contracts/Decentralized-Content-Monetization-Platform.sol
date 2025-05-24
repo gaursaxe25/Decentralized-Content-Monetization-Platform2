@@ -141,4 +141,15 @@ contract Project
         Content memory c = contents[_contentId];
         return (c.creator, c.contentHash, c.price, c.isActive);
     }
-}
+}  
+{
+
+    function publishContent(string memory _contentHash, uint256 _price) external {
+        contentCounter++;
+
+        contents[contentCounter] = Content({
+            creator: msg.sender,
+            contentHash: _contentHash,
+            price: _price,
+            isActive: true
+        });
