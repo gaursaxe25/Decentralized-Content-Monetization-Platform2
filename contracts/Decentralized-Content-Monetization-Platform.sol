@@ -26,7 +26,7 @@ contract Project
     event ContentPublished(uint256 indexed contentId, address indexed creator, uint256 price);
     event ContentPurchased(uint256 indexed contentId, address indexed buyer, address indexed creator, uint256 price);
     event CreatorWithdraw(address indexed creator, uint256 amount);
-    event ContentDeactivated(uint256 indexed contentId);
+    event ContentDeactivated(uint256 indexed contentId)
     event ContentReactivated(uint256 indexed contentId);
     event ContentPriceUpdated(uint256 indexed contentId, uint256 newPrice);
     event PlatformFeeUpdated(uint256 newFee);
