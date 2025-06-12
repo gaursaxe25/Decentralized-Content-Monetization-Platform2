@@ -4,7 +4,7 @@ pragma solidity ^0.8.19;
  * @dev Smart contract for decentralized content monetization platform
  */
 contract Project 
-    address public owner
+    address public 
     uint256 public platformFeePercentage;
     uint256 private constant PERCENTAGE_BASE = 100
 
