@@ -11,7 +11,8 @@ contract Project
 contract Project 
     address public 
     uint256 public platformFeePercentage;
-    uint256 private constant PERCENTAGE_BASE = 100
+    uint256 private constant PERCENTAGE_BASE = 50
+
 
     struct Content {
         address creator;
