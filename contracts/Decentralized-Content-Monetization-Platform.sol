@@ -10,7 +10,7 @@ contract Project
 
 contract Project 
     address public 
-    uint256 public platformFeePercentage;
+    uint256 public platformFeePercent
     uint256 private constant PERCENTAGE_BASE = 50
 
 
