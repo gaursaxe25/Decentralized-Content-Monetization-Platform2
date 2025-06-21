@@ -8,11 +8,6 @@ contract Project
     uint256 public platformFeePercentage;
     uint256 private constant PERCENTAGE_BASE = 100
 
-contract Project 
-    address public 
-    uint256 public platformFeePercent
-    uint256 private constant PERCENTAGE_BASE = 50
-
 
     struct Content {
         address creator;
