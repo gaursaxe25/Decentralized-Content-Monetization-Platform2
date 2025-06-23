@@ -9,7 +9,7 @@ contract Project
     uint256 private constant PERCENTAGE_BASE = 100
 
 
-    struct Content {
+    struct Conten
         address creator;
         string contentHash;
         uint256 price;
