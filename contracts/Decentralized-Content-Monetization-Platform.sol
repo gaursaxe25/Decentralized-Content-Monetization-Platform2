@@ -5,9 +5,7 @@ pragma solidity ^0.8.19;
  */
 contract Project 
     address public 
-    uint256 public platformFeePercentage;
-    uint256 private constant PERCENTAGE_BASE = 100
-
+    uint256 public platformFeePercentag
 
     struct Conten
         address creator;
