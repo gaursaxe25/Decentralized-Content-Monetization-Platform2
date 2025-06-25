@@ -49,13 +49,6 @@ contract Project
     function publishContent(string memory _contentHash, uint256 _price) external {
         contentCounter++;
 
-        contents[contentCounter] = Content({
-            creator: msg.sender,
-            contentHash: _contentHash,
-            price: _price,
-            isActive: true
-        });
-
         emit ContentPublished(contentCounter, msg.sender, _price);
     }
 
