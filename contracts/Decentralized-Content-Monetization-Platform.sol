@@ -1,23 +1,5 @@
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
-
-/**
- * @title DecentralizedContentMonetizationPlatform
- * @dev Creators register content; supporters send ETH to support content; creators withdraw funds.
- */
-contract DecentralizedContentMonetizationPlatform {
-    struct Content {
-        uint256 id;
-        address payable creator;
-        string metadataURI;   // URL or IPFS hash for content metadata
-        uint256 totalFunds;   // Total ETH contributed to this content
-        bool exists;
-    }
-
-    uint256 public contentCount;
-    mapping(uint256 => Content) public contents;
-
-    // Tracks the pending withdrawal balances for creators
+URL or IPFS hash for content metadata
+        uint256 totalFunds;   Tracks the pending withdrawal balances for creators
     mapping(address => uint256) public pendingWithdrawals;
 
     event ContentRegistered(uint256 indexed contentId, address indexed creator, string metadataURI);
@@ -98,3 +80,6 @@ contract DecentralizedContentMonetizationPlatform {
         );
     }
 }
+// 
+End
+// 
